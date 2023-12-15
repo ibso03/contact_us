@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(158, 158, 158, 0.562);
+    /* background-image: url(../images/img6.jpg); */
+    background-repeat: none;
+    opacity: 1;
+    background-size:100% 630px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    margin: 15px;
+    background-color: #232629d3;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    position: fixed;
+   
+}
+fieldset h2{
+    color: azure;
+    font-size: 30px;
+    padding: 7px;
+    margin:-60px 0px 20px 0px;
+    border-bottom: 3px solid ;
+}
+input{
+    height: 8%;
+    width: 96%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+fieldset label{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 10px ;
+}
+textarea{
+    padding: 15px;
+    height: 100px  !important;
+    width: 490px !important;
+    /* position: fixed; */
+    outline: none;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: auto;
+    border-radius: 10px;
+}
+input:last-child{
+    height: 40px;
+    width: 35%;
+}
